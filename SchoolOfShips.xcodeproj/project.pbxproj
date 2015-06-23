@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579E17701B391C8800A5DBAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E176F1B391C8800A5DBAC /* AppDelegate.swift */; };
+		579E17721B391C8800A5DBAC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E17711B391C8800A5DBAC /* GameView.swift */; };
+		579E17741B391C8800A5DBAC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E17731B391C8800A5DBAC /* GameViewController.swift */; };
+		579E17761B391C8800A5DBAC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 579E17751B391C8800A5DBAC /* art.scnassets */; };
+		579E17781B391C8800A5DBAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579E17771B391C8800A5DBAC /* Images.xcassets */; };
+		579E177B1B391C8800A5DBAC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579E17791B391C8800A5DBAC /* MainMenu.xib */; };
+		579E17871B391C8900A5DBAC /* SchoolOfShipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E17861B391C8900A5DBAC /* SchoolOfShipsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		579E17811B391C8900A5DBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579E17621B391C8800A5DBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579E17691B391C8800A5DBAC;
+			remoteInfo = SchoolOfShips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		579E176A1B391C8800A5DBAC /* SchoolOfShips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolOfShips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579E176E1B391C8800A5DBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579E176F1B391C8800A5DBAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		579E17711B391C8800A5DBAC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		579E17731B391C8800A5DBAC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		579E17751B391C8800A5DBAC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		579E17771B391C8800A5DBAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		579E177A1B391C8800A5DBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		579E17801B391C8900A5DBAC /* SchoolOfShipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolOfShipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579E17851B391C8900A5DBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579E17861B391C8900A5DBAC /* SchoolOfShipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolOfShipsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		579E17671B391C8800A5DBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579E177D1B391C8900A5DBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579E17611B391C8800A5DBAC = {
+			isa = PBXGroup;
+			children = (
+				579E176C1B391C8800A5DBAC /* SchoolOfShips */,
+				579E17831B391C8900A5DBAC /* SchoolOfShipsTests */,
+				579E176B1B391C8800A5DBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		579E176B1B391C8800A5DBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579E176A1B391C8800A5DBAC /* SchoolOfShips.app */,
+				579E17801B391C8900A5DBAC /* SchoolOfShipsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579E176C1B391C8800A5DBAC /* SchoolOfShips */ = {
+			isa = PBXGroup;
+			children = (
+				579E176F1B391C8800A5DBAC /* AppDelegate.swift */,
+				579E17711B391C8800A5DBAC /* GameView.swift */,
+				579E17731B391C8800A5DBAC /* GameViewController.swift */,
+				579E17751B391C8800A5DBAC /* art.scnassets */,
+				579E17771B391C8800A5DBAC /* Images.xcassets */,
+				579E17791B391C8800A5DBAC /* MainMenu.xib */,
+				579E176D1B391C8800A5DBAC /* Supporting Files */,
+			);
+			path = SchoolOfShips;
+			sourceTree = "<group>";
+		};
+		579E176D1B391C8800A5DBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				579E176E1B391C8800A5DBAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		579E17831B391C8900A5DBAC /* SchoolOfShipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				579E17861B391C8900A5DBAC /* SchoolOfShipsTests.swift */,
+				579E17841B391C8900A5DBAC /* Supporting Files */,
+			);
+			path = SchoolOfShipsTests;
+			sourceTree = "<group>";
+		};
+		579E17841B391C8900A5DBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				579E17851B391C8900A5DBAC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		579E17691B391C8800A5DBAC /* SchoolOfShips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579E178A1B391C8900A5DBAC /* Build configuration list for PBXNativeTarget "SchoolOfShips" */;
+			buildPhases = (
+				579E17661B391C8800A5DBAC /* Sources */,
+				579E17671B391C8800A5DBAC /* Frameworks */,
+				579E17681B391C8800A5DBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolOfShips;
+			productName = SchoolOfShips;
+			productReference = 579E176A1B391C8800A5DBAC /* SchoolOfShips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		579E177F1B391C8900A5DBAC /* SchoolOfShipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579E178D1B391C8900A5DBAC /* Build configuration list for PBXNativeTarget "SchoolOfShipsTests" */;
+			buildPhases = (
+				579E177C1B391C8900A5DBAC /* Sources */,
+				579E177D1B391C8900A5DBAC /* Frameworks */,
+				579E177E1B391C8900A5DBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579E17821B391C8900A5DBAC /* PBXTargetDependency */,
+			);
+			name = SchoolOfShipsTests;
+			productName = SchoolOfShipsTests;
+			productReference = 579E17801B391C8900A5DBAC /* SchoolOfShipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579E17621B391C8800A5DBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Reza Shirazian";
+				TargetAttributes = {
+					579E17691B391C8800A5DBAC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					579E177F1B391C8900A5DBAC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 579E17691B391C8800A5DBAC;
+					};
+				};
+			};
+			buildConfigurationList = 579E17651B391C8800A5DBAC /* Build configuration list for PBXProject "SchoolOfShips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579E17611B391C8800A5DBAC;
+			productRefGroup = 579E176B1B391C8800A5DBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				579E17691B391C8800A5DBAC /* SchoolOfShips */,
+				579E177F1B391C8900A5DBAC /* SchoolOfShipsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		579E17681B391C8800A5DBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579E17761B391C8800A5DBAC /* art.scnassets in Resources */,
+				579E17781B391C8800A5DBAC /* Images.xcassets in Resources */,
+				579E177B1B391C8800A5DBAC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579E177E1B391C8900A5DBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		579E17661B391C8800A5DBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579E17721B391C8800A5DBAC /* GameView.swift in Sources */,
+				579E17741B391C8800A5DBAC /* GameViewController.swift in Sources */,
+				579E17701B391C8800A5DBAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579E177C1B391C8900A5DBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579E17871B391C8900A5DBAC /* SchoolOfShipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		579E17821B391C8900A5DBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579E17691B391C8800A5DBAC /* SchoolOfShips */;
+			targetProxy = 579E17811B391C8900A5DBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		579E17791B391C8800A5DBAC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579E177A1B391C8800A5DBAC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		579E17881B391C8900A5DBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		579E17891B391C8900A5DBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		579E178B1B391C8900A5DBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SchoolOfShips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		579E178C1B391C8900A5DBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SchoolOfShips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		579E178E1B391C8900A5DBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SchoolOfShipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolOfShips.app/Contents/MacOS/SchoolOfShips";
+			};
+			name = Debug;
+		};
+		579E178F1B391C8900A5DBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SchoolOfShipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolOfShips.app/Contents/MacOS/SchoolOfShips";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		579E17651B391C8800A5DBAC /* Build configuration list for PBXProject "SchoolOfShips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579E17881B391C8900A5DBAC /* Debug */,
+				579E17891B391C8900A5DBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579E178A1B391C8900A5DBAC /* Build configuration list for PBXNativeTarget "SchoolOfShips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579E178B1B391C8900A5DBAC /* Debug */,
+				579E178C1B391C8900A5DBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		579E178D1B391C8900A5DBAC /* Build configuration list for PBXNativeTarget "SchoolOfShipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579E178E1B391C8900A5DBAC /* Debug */,
+				579E178F1B391C8900A5DBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 579E17621B391C8800A5DBAC /* Project object */;
+}
