@@ -108,7 +108,7 @@ class GameViewController: NSViewController, SCNSceneRendererDelegate {
             v3 *= (0.01)
             v4 *= (1.0)
             
-            var positionToBe = ship.velocity + v1 + v2 + v3 + v4;
+            var positionToBe = ship.node.position + ship.velocity + v1 + v2 + v3 + v4;
             //look_at(ship, positionToBe: positionToBe);
             
             /*
@@ -116,13 +116,13 @@ class GameViewController: NSViewController, SCNSceneRendererDelegate {
             */
             
             rotateShipToFaceForward(ship, positionToBe: positionToBe);
-            ship.velocity = positionToBe;
+            ship.velocity = ship.velocity + v1 + v2 + v3 + v4;
             limitVelocity(ship);
 //            var angle = calculateAngle(ship.velocity.x, y1: ship.velocity.y, x2: CGFloat(0), y2: CGFloat(0))
 //            ship.node.rotation = SCNVector4(x: 0.0, y: -1.0, z: 0.0, w: CGFloat(angle))
             //updateLocal(ship);
           
-            ship.prevDir = (ship.velocity - ship.node.position).normalized();
+            ship.prevDir = (ship.node.position - ship.velocity).normalized();
             ship.node.position = ship.node.position + (ship.velocity)
         }
     }
@@ -276,24 +276,20 @@ class GameViewController: NSViewController, SCNSceneRendererDelegate {
     
     func rotateShipToFaceForward(ship: Ship, positionToBe: SCNVector3)
     {
-        var source = ship.prevDir;
+        var source = (ship.node.position - ship.velocity).normalized();
         var destination = (positionToBe - ship.node.position).normalized();
         
         var dot = source.dot(destination)
-        
-        
-        
+       
         var rotAngle = GLKMathDegreesToRadians(acos(dot));
         var rotAxis = source.cross(destination);
         
         rotAxis.normalize();
-        var l = GLKMatrix3();
-      
-//        var l = GLKQuaternionMakeWithMatrix3(matrix: GLKMatrix3)
+
         var q = GLKQuaternionMakeWithAngleAndAxis(Float(rotAngle), Float(rotAxis.x), Float(rotAxis.y), Float(rotAxis.z))
         
         ship.node.rotation = SCNVector4(x: CGFloat(q.x), y: CGFloat(q.y), z: CGFloat(q.z), w: CGFloat(q.w))
-
+   
         
     }
     
