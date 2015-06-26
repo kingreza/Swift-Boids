@@ -14,6 +14,8 @@
 		579E17781B391C8800A5DBAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579E17771B391C8800A5DBAC /* Images.xcassets */; };
 		579E177B1B391C8800A5DBAC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579E17791B391C8800A5DBAC /* MainMenu.xib */; };
 		579E17871B391C8900A5DBAC /* SchoolOfShipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E17861B391C8900A5DBAC /* SchoolOfShipsTests.swift */; };
+		579E17911B394B4000A5DBAC /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E17901B394B4000A5DBAC /* Ship.swift */; };
+		579E17931B3A8C9500A5DBAC /* SCNVector3Extensions.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E17921B3A8C9500A5DBAC /* SCNVector3Extensions.swift .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		579E17801B391C8900A5DBAC /* SchoolOfShipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolOfShipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		579E17851B391C8900A5DBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		579E17861B391C8900A5DBAC /* SchoolOfShipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolOfShipsTests.swift; sourceTree = "<group>"; };
+		579E17901B394B4000A5DBAC /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		579E17921B3A8C9500A5DBAC /* SCNVector3Extensions.swift .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3Extensions.swift .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				579E17771B391C8800A5DBAC /* Images.xcassets */,
 				579E17791B391C8800A5DBAC /* MainMenu.xib */,
 				579E176D1B391C8800A5DBAC /* Supporting Files */,
+				579E17901B394B4000A5DBAC /* Ship.swift */,
+				579E17921B3A8C9500A5DBAC /* SCNVector3Extensions.swift .swift */,
 			);
 			path = SchoolOfShips;
 			sourceTree = "<group>";
@@ -216,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				579E17721B391C8800A5DBAC /* GameView.swift in Sources */,
+				579E17911B394B4000A5DBAC /* Ship.swift in Sources */,
+				579E17931B3A8C9500A5DBAC /* SCNVector3Extensions.swift .swift in Sources */,
 				579E17741B391C8800A5DBAC /* GameViewController.swift in Sources */,
 				579E17701B391C8800A5DBAC /* AppDelegate.swift in Sources */,
 			);
