@@ -11,5 +11,5 @@ cohesion: steer to move toward the average position (center of mass) of local fl
 More complex rules can be added, such as obstacle avoidance and goal seeking.
 
 ## Video
-[![lameBoids](http://img.youtube.com/vi/9k07wxod3yI/0.jpg)](http://www.youtube.com/watch?v=9k07wxod3yI)
+[![flying boids](https://s3-us-west-1.amazonaws.com/reza-word/boids.gif)](http://www.youtube.com/watch?v=arHeVwTqt1Y)
 
