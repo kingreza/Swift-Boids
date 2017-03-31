@@ -10,12 +10,13 @@ import SceneKit
 
 class GameView: SCNView {
     
-    override func mouseDown(theEvent: NSEvent) {
+    override func mouseDown(with theEvent: NSEvent) {
         /* Called when a mouse click occurs */
         
         // check what nodes are clicked
-        let p = self.convertPoint(theEvent.locationInWindow, fromView: nil)
-        if let hitResults = self.hitTest(p, options: nil) {
+        let p = self.convert(theEvent.locationInWindow, from: nil)
+        let hitResults = self.hitTest(p, options: nil)
+        if hitResults.count > 0 {
             // check that we clicked on at least one object
             if hitResults.count > 0 {
                 // retrieved the first clicked object
@@ -26,25 +27,25 @@ class GameView: SCNView {
                 
                 // highlight it
                 SCNTransaction.begin()
-                SCNTransaction.setAnimationDuration(0.5)
+                SCNTransaction.animationDuration = 0.5
                 
                 // on completion - unhighlight
-                SCNTransaction.setCompletionBlock() {
+                SCNTransaction.completionBlock = {
                     SCNTransaction.begin()
-                    SCNTransaction.setAnimationDuration(0.5)
+                    SCNTransaction.animationDuration = 0.5
                     
-                    material.emission.contents = NSColor.blackColor()
+                    material.emission.contents = NSColor.black
                     
                     SCNTransaction.commit()
                 }
                 
-                material.emission.contents = NSColor.redColor()
+                material.emission.contents = NSColor.red
                 
                 SCNTransaction.commit()
             }
         }
         
-        super.mouseDown(theEvent)
+        super.mouseDown(with: theEvent)
     }
 
 }

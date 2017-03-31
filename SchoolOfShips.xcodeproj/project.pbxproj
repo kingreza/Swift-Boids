@@ -170,9 +170,11 @@
 				TargetAttributes = {
 					579E17691B391C8800A5DBAC = {
 						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0820;
 					};
 					579E177F1B391C8900A5DBAC = {
 						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = 579E17691B391C8800A5DBAC;
 					};
 				};
@@ -347,6 +349,7 @@
 				INFOPLIST_FILE = SchoolOfShips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -358,6 +361,7 @@
 				INFOPLIST_FILE = SchoolOfShips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -377,6 +381,7 @@
 				INFOPLIST_FILE = SchoolOfShipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolOfShips.app/Contents/MacOS/SchoolOfShips";
 			};
 			name = Debug;
@@ -393,6 +398,7 @@
 				INFOPLIST_FILE = SchoolOfShipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolOfShips.app/Contents/MacOS/SchoolOfShips";
 			};
 			name = Release;
@@ -416,6 +422,7 @@
 				579E178C1B391C8900A5DBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		579E178D1B391C8900A5DBAC /* Build configuration list for PBXNativeTarget "SchoolOfShipsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				579E178F1B391C8900A5DBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

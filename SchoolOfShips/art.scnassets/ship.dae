@@ -4,14 +4,14 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2014-07-02T15:29:44Z</created>
-  <modified>2014-07-02T15:29:44Z</modified>
+  <created>2017-03-31T04:42:17Z</created>
+  <modified>2017-03-31T04:42:17Z</modified>
   <unit meter="0.010000"/>
   <up_axis>Y_UP</up_axis>
  </asset>
  <library_images>
   <image id="image1">
-   <init_from>texture.png</init_from>
+   <init_from>../../../../Fractal/Fractal/art.scnassets/texture.png</init_from>
   </image>
  </library_images>
  <library_materials>
@@ -132,7 +132,7 @@
   <visual_scene id="scene7">
    <node id="ship" name="ship">
     <node id="shipMesh" name="shipMesh">
-     <matrix>0.2 0 0 0 0 0.2 0 -1.187411 0 0 0.2 0.7991223 0 0 0 1 </matrix>
+     <matrix>0.2 0 0 0.118639 0 0.2 0 -1.211236 0 0 0.2 0.7957715 0 0 0 1 </matrix>
      <instance_geometry url="#Scrap_MeshShape">
       <bind_material>
        <technique_common>
